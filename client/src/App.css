@@ -1,0 +1,51 @@
+#root {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  margin-top: 30px;
+  max-width: 80%;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info>div {
+  width: 50%;
+}
+
+.pair {
+  padding-right: 30px;
+}
+
+.pair>div {
+  display: flex;
+}
+
+.pair button {
+  flex: 1;
+}
+
+.buy {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+}
+
+.buy input {
+  width: 200px;
+}
+
+.swap input {
+  width: 200px;
+}
+
+.logs {
+  width: 100%;
+}
